@@ -1,0 +1,245 @@
+/* Insert Your Custom CSS Here */
+html, body {
+   min-height: 100%;   
+}
+/*body *{
+	font-family: MyriadProRegular;
+}
+.vd_title-section h1{
+	font-family: Perpertua;
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+
+.vd_title-section .subtitle{
+	font-family: Perpertua;
+	font-size: 35px;
+}
+.vd_content-section .row{
+	margin-bottom: 0px;
+}
+
+.modal { overflow: auto !important; }
+*/
+.text-bold{
+	font-weight: bold!important;
+}
+a[data-name]{
+	color: #1ba514!important;
+    font-weight: bold!important;
+    text-decoration: underline!important;
+}
+
+.table tbody tr{
+	cursor: pointer;
+}
+
+.table tbody tr.td-active td{
+	background-color: #bfe2ff!important;
+}
+
+.form-control[multiple]{
+	font-size: 12px!important;
+}
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+    background-color: #e3eef7!important;
+}
+
+.select2-container.select2-container--open{
+	z-index: 9999;
+}
+
+.modal-sm .modal-footer{
+	text-align: center;
+}
+.modal-sm .modal-body{
+	padding-bottom: 20px;
+}
+
+.menu-action{
+	min-width: 55px!important;
+}
+
+select{
+	border-radius: 0;
+	padding: 6px 6px 7px;
+}
+
+form .form-control{
+	border-radius: 0;
+}
+
+.background-login, .vd_content-wrapper, .vd_content-section{
+	background-color: inherit!important;
+}
+html{
+	background: linear-gradient(rgb(238, 238, 238), rgb(66, 93, 140))!important;
+}
+.background-login{
+	/*background-image: url(../img/bg_footer_login.png)!important;
+	background-repeat: no-repeat!important;
+	background-position: center bottom!important;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+
+.select2-search__field{
+	width: 100%!important;
+}
+
+.input-group-btn .btn-sm {
+	padding: 7px 12px 7px;
+}
+
+#search-box .input-sm{
+	padding: 0;
+}
+
+.vd_bg-blue2{
+	cursor: pointer;
+	background-color: #000e32;
+}
+.vd_bg-blue2:hover{
+	background-color: #00082f;
+}
+
+.login-layout .vd_checkbox label{
+	color: #40557e;
+	font-weight: inherit;
+}
+
+.panel-heading .vd_menu-search{
+	margin-top:0px;
+}
+
+.vd_menu-search .vd_menu-search-submit{
+	background-color: #000e32;
+}
+
+.vd_bg-azul3{
+	background-color: #334570;
+}
+.dataTable thead tr{
+	background-color: #BEBEBE;
+}
+.table .menu-action{
+	padding-bottom: 8px!important;
+}
+
+.dataTables_filter input{
+	margin-left: 5px;
+}
+
+.dataTables_processing{
+	position: absolute;
+    top: 100px;
+    left: 30%;
+    background: white;
+    width: 255px;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+	.table.dataTable{
+		width: 100%!important;
+	}
+}
+
+.btn-form-bottom{
+	border-top:1px solid #EEEEEE;
+	padding-top:10px;
+}
+
+
+.controls .select2-container{
+	width: 100%!important;
+}
+
+.modal-content{
+	background-color: #fff;
+}
+
+/*
+######################################################
+###################TABLE_CUSTOM#######################
+######################################################
+*/
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	padding: 4px 6px;
+}
+.table{
+	font-size: 12px;
+}
+
+
+.vd_title-section .vd_panel-menu>.menu {
+    background-color: #2e436f;
+    border-color: #2e436f;
+    color: #fff;
+}
+
+.vd_title-section .vd_panel-menu>.menu.active, .vd_title-section .vd_panel-menu>.menu:focus, .vd_title-section .vd_panel-menu>.menu:hover {
+    background-color: #f8f8f8;
+    border: none;
+    color: #666;
+}
+
+.vd_status-widget .menu-value{
+	margin-left: 15px!important;
+}
+
+.vd_status-widget .menu-text {
+    padding-top: 5px!important;
+    font-size: 15px!important;
+}
+
+.subtitle2 {
+	margin-top: -10px;
+	font-size: 10px;
+	display: block;
+}
+
+@media (max-width: 767px) {
+	.vd_title-section h1{
+		padding-right: 0px;
+		display: block;
+		font-size: 20px;
+	}
+	.vd_title-section .subtitle{
+		padding-right: 0px;
+		display: block;
+	}
+	.vd_title-section .vd_panel-header .vd_panel-menu{
+		position: relative!important;
+	}
+	.vd_title-section .vd_panel-header .vd_panel-menu .menu{
+		float: right;
+	}
+	.panel .panel-body{
+		padding: 5px;
+	}
+	.vd_content-section{
+		padding: 10px;
+	}
+	.table-responsive{
+		padding: 5px;
+	}
+	.logo a img{
+		height: 50px;
+	}
+}
+
+.content-list .list-wrapper > li{
+	text-align: center!important;
+}
+.vd_pricing-table .plan {
+    margin-right: -10px!important;
+    margin-left: -10px!important;
+}
+.validation-error-label{
+	color: #a94442;
+}
