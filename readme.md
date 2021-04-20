@@ -13,6 +13,8 @@ Entrar no Container do Laravel
 
 Executar os comandos
 
+	composer install
+
 	php artisan migrate
 
 	php artisan db:seed
